@@ -1,0 +1,72 @@
+
+h4{
+  background-color: whitesmoke;
+  font-family: "Ballet", cursive;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 290;
+  background-size: 550px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+h1{
+  color: whitesmoke;
+  margin-bottom: 5px;
+}
+h2{
+  color: whitesmoke;
+  font-family: "Ballet", cursive;
+  font-size: 40px;
+  font-weight: 350;
+  margin-top: 0px;
+  white-space: nowrap;
+}
+h5{
+  color: whitesmoke;
+  font-family: "Ballet", cursive;
+  text-align: center;
+  font-style: italic;
+  font-weight: 70;
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+.bo-img{
+  border:10px solid whitesmoke;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  width: 630px;
+  height: auto;
+  max-width: calc(100%-20px);
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  margin: 0;
+}
+#Poster{
+  color: whitesmoke;
+  margin: 0px;
+}
+@media (max-width: 600px) {
+  #poster{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h1{
+    font-size: 28px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  h4{
+    font-size: 32px;
+  }
+  .bo-img{
+    width: 100%;
+    height: auto;
+  }
+  
+}
